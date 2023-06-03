@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font-family: 'roboto';
+}
+h1 {
+  color: #ea580c;
+}
+
+.card-container {
+  padding: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputfield {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input {
+  padding: 15px;
+  height: 30px;
+  color: #9aa5b1;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #9aa5b1;
+}
+
+.title {
+  font-size: 15px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 5px;
+  background-color: #ea580c;
+  color: #fef2f4;
+  padding: 10px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+.error-field {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+
+.error-message {
+  margin-top: 0px;
+  font-size: 15px;
+  color: #ff0b37;
+  text-align: left;
+}
+
+.success-img {
+  width: 50%;
+}
+
+.successView {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 20px;
+}
+.success-btn {
+  text-align: center;
+  margin-top: 5px;
+  background-color: #ea580c;
+  color: #fef2f4;
+  padding: 10px;
+  border-style: none;
+  border-radius: 10px;
+  font-size: 25px;
+  width: 50%;
+}
